@@ -1,0 +1,72 @@
+/*
+1722px grid system ~ Core CSS.
+26 Columns ~ Margin left: 20px
+
+Based on the simple grid system - http://www.webnicer.com/
+by Jacek Ciolek
+
+Created by the Grid System Generator - v1.00
+Learn more ~ http://www.gridsystemgenerator.com/
+*/
+
+/* clearfix */
+.clearfix:after, .row:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix, .row {display:inline-block;} /*Those two .clearfix have to be separate!)*/
+.clearfix, .row {display:block;}
+
+/* gridframework */
+.row {position:relative; margin-left:-20px;}
+.gu1 .row {width: 67px;}
+.gu2 .row {width: 134px;}
+.gu3 .row {width: 201px;}
+.gu4 .row {width: 268px;}
+.gu5 .row {width: 335px;}
+.gu6 .row {width: 402px;}
+.gu7 .row {width: 469px;}
+.gu8 .row {width: 536px;}
+.gu9 .row {width: 603px;}
+.gu10 .row {width: 670px;}
+.gu11 .row {width: 737px;}
+.gu12 .row {width: 804px;}
+.gu13 .row {width: 871px;}
+.gu14 .row {width: 938px;}
+.gu15 .row {width: 1005px;}
+.gu16 .row {width: 1072px;}
+.gu17 .row {width: 1139px;}
+.gu18 .row {width: 1206px;}
+.gu19 .row {width: 1273px;}
+.gu20 .row {width: 1340px;}
+.gu21 .row {width: 1407px;}
+.gu22 .row {width: 1474px;}
+.gu23 .row {width: 1541px;}
+.gu24 .row {width: 1608px;}
+.gu25 .row {width: 1675px;}
+.gu26 .row {width: 1742px;}
+
+.col {padding-left:20px; float:left; position:relative;}
+.gu1{width: 47px;}
+.gu2{width: 114px;}
+.gu3{width: 181px;}
+.gu4{width: 248px;}
+.gu5{width: 315px;}
+.gu6{width: 382px;}
+.gu7{width: 449px;}
+.gu8{width: 516px;}
+.gu9{width: 583px;}
+.gu10{width: 650px;}
+.gu11{width: 717px;}
+.gu12{width: 784px;}
+.gu13{width: 851px;}
+.gu14{width: 918px;}
+.gu15{width: 985px;}
+.gu16{width: 1052px;}
+.gu17{width: 1119px;}
+.gu18{width: 1186px;}
+.gu19{width: 1253px;}
+.gu20{width: 1320px;}
+.gu21{width: 1387px;}
+.gu22{width: 1454px;}
+.gu23{width: 1521px;}
+.gu24{width: 1588px;}
+.gu25{width: 1655px;}
+.gu26{width: 1722px;}
